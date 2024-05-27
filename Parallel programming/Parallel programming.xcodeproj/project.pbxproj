@@ -10,6 +10,10 @@
 		EF187C672C030A3700C654ED /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF187C662C030A3700C654ED /* main.swift */; };
 		EF187C6E2C030B5000C654ED /* Pthread.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF187C6D2C030B5000C654ED /* Pthread.swift */; };
 		EF187C702C030E7400C654ED /* NSThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF187C6F2C030E7400C654ED /* NSThread.swift */; };
+		EF187C722C046EF800C654ED /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF187C712C046EF800C654ED /* GCD.swift */; };
+		EF187C742C0470E800C654ED /* OperationQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF187C732C0470E800C654ED /* OperationQueue.swift */; };
+		EF187C762C04724400C654ED /* NSLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF187C752C04724400C654ED /* NSLock.swift */; };
+		EF187C782C0472B600C654ED /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF187C772C0472B600C654ED /* AsyncAwait.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +33,10 @@
 		EF187C662C030A3700C654ED /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		EF187C6D2C030B5000C654ED /* Pthread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pthread.swift; sourceTree = "<group>"; };
 		EF187C6F2C030E7400C654ED /* NSThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSThread.swift; sourceTree = "<group>"; };
+		EF187C712C046EF800C654ED /* GCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
+		EF187C732C0470E800C654ED /* OperationQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationQueue.swift; sourceTree = "<group>"; };
+		EF187C752C04724400C654ED /* NSLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLock.swift; sourceTree = "<group>"; };
+		EF187C772C0472B600C654ED /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,10 @@
 				EF187C662C030A3700C654ED /* main.swift */,
 				EF187C6D2C030B5000C654ED /* Pthread.swift */,
 				EF187C6F2C030E7400C654ED /* NSThread.swift */,
+				EF187C712C046EF800C654ED /* GCD.swift */,
+				EF187C732C0470E800C654ED /* OperationQueue.swift */,
+				EF187C752C04724400C654ED /* NSLock.swift */,
+				EF187C772C0472B600C654ED /* AsyncAwait.swift */,
 			);
 			path = "Parallel programming";
 			sourceTree = "<group>";
@@ -128,7 +140,11 @@
 			files = (
 				EF187C702C030E7400C654ED /* NSThread.swift in Sources */,
 				EF187C6E2C030B5000C654ED /* Pthread.swift in Sources */,
+				EF187C722C046EF800C654ED /* GCD.swift in Sources */,
 				EF187C672C030A3700C654ED /* main.swift in Sources */,
+				EF187C742C0470E800C654ED /* OperationQueue.swift in Sources */,
+				EF187C762C04724400C654ED /* NSLock.swift in Sources */,
+				EF187C782C0472B600C654ED /* AsyncAwait.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
