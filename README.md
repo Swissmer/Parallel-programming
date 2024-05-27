@@ -9,5 +9,14 @@
 * Pthread 
 * NSThread
 * Grand Central Dispatch (GCD)
-<!-- * NSLock -->
-<!-- * OperationQueue -->
+* NSLock
+* OperationQueue
+* Async/Await
+
+## How it work
+
+> Для проверки роботоспособности создавайте в main.swift соответствующие классы и запускайте методы.
+
+## Support
+
+tg: @swissmer
